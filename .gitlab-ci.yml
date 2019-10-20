@@ -1,0 +1,22 @@
+# https://cli.vuejs.org/guide/deployment.html#gitlab-pages
+
+# https://hub.docker.com/_/node/
+image: node:latest
+
+stages:
+  - ESLint
+
+#cache:
+#  paths:
+#    - node_modules/
+
+"ESLint":
+  stage: ESLint
+  script:
+    - npm install eslint
+    - node_modules/eslint/bin/eslint.js .
+  cache:
+    key: "${CI_PROJECT_ID}_cache_yarn"
+    paths:
+      - .yarn-cache/
+      - node_modules/
