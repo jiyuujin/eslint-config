@@ -6,6 +6,7 @@ module.exports = {
         quotes: [2, 'single'],
         'linebreak-style': [2, 'unix'],
         semi: [0, 'never'],
-        'no-unused-vars': 1
+        'no-unused-vars': 1,
+        'no-var': 'error'
     }
 }
