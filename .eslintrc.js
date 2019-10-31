@@ -6,11 +6,11 @@ module.exports = {
     root: true,
     env: { node: true, es6: true },
     rules: {
-        indent: ['error', 4],
-        quotes: [2, 'single'],
-        'linebreak-style': [2, 'unix'],
-        semi: [0, 'never'],
-        'no-unused-vars': 1,
+      indent: ['error', 4, { SwitchCase: 1 }],
+      quotes: ['error', 'single'],
+      'linebreak-style': ['error', 'unix'],
+      semi: ['error', 'never'],
+        'no-unused-vars': 'warn',
         'no-var': 'error'
     }
 }
