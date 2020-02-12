@@ -19,9 +19,9 @@
     "eslint"
   ],
   "scripts": {
-    "release": "git checkout master && lerna publish"
+    "test": "eslint hoge.js"
   },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "eslint": "6.5.1"
   }
 }
