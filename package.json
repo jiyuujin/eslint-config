@@ -16,7 +16,8 @@
     "url": "https://gitlab.com/jiyuujin/eslint-config/issues"
   },
   "keywords": [
-    "eslint"
+    "eslint",
+    "lerna"
   ],
   "scripts": {
     "release": "git checkout master && lerna publish"

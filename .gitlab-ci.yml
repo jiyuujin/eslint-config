@@ -4,14 +4,16 @@
 image: node:latest
 
 stages:
-  - ESLint
+  - ESNext
 
 #cache:
 #  paths:
 #    - node_modules/
 
-"ESLint":
-  stage: ESLint
+"ESLint for ESNext":
+  stage: ESNext
+  before_script:
+    - cd packages/esnext/
   script:
     - npm install eslint
     - node_modules/eslint/bin/eslint.js .
