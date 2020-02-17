@@ -1,0 +1,29 @@
+{
+  "name": "@nekohack/eslint-config-vue",
+  "version": "0.1.0",
+  "private": false,
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "author": "yuukit <yuma.kitamura@ponos.co.jp>",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/jiyuujin/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/jiyuujin/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "scripts": {
+    "test": "eslint hoge.js"
+  },
+  "devDependencies": {
+    "eslint": "6.5.1",
+    "eslint-plugin-vue": "^6.2.0",
+    "eslint-plugin-vue-a11y": "^0.0.31"
+  }
+}
