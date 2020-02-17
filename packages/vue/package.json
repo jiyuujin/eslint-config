@@ -21,9 +21,11 @@
   "scripts": {
     "test": "eslint hoge.js"
   },
-  "devDependencies": {
-    "eslint": "6.5.1",
+  "dependencies": {
     "eslint-plugin-vue": "^6.2.0",
     "eslint-plugin-vue-a11y": "^0.0.31"
+  },
+  "devDependencies": {
+    "eslint": "6.5.1"
   }
 }
