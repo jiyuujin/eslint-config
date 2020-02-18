@@ -5,7 +5,10 @@ module.exports = {
         'react-app',
         'plugin:react/recommended'
     ],
-    plugins: ['react'],
+    plugins: [
+        'react',
+        'import'
+    ],
     parser: 'babel-eslint',
     rules: {
         indent: ['error', 4, { SwitchCase: 1 }],
