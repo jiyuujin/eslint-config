@@ -6,6 +6,7 @@ module.exports = {
         'plugin:react/recommended'
     ],
     plugins: ['react'],
+    parser: 'babel-eslint',
     rules: {
         indent: ['error', 4, { SwitchCase: 1 }],
         quotes: ['error', 'single'],
