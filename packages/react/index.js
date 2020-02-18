@@ -7,7 +7,8 @@ module.exports = {
     ],
     plugins: [
         'react',
-        'import'
+        'import',
+        'flowtype'
     ],
     parser: 'babel-eslint',
     rules: {
