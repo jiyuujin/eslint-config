@@ -2,6 +2,7 @@
 
 module.exports = {
     extends: [
+        'eslint',
         'airbnb',
         'react-app',
         'plugin:react/recommended'

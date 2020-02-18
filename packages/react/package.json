@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.3",
+    "eslint": "6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-react-app": "^5.2.0",
     "eslint-plugin-flowtype": "^4.6.0",
@@ -30,8 +31,5 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
     "eslint-plugin-react-hooks": "^2.4.0"
-  },
-  "devDependencies": {
-    "eslint": "6.5.1"
   }
 }
