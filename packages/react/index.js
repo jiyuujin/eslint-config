@@ -9,7 +9,8 @@ module.exports = {
         'react',
         'import',
         'flowtype',
-        'jsx-a11y'
+        'jsx-a11y',
+        'react-hooks'
     ],
     parser: 'babel-eslint',
     rules: {
