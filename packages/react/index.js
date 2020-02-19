@@ -2,19 +2,17 @@
 
 module.exports = {
     extends: [
-        'eslint',
-        'airbnb',
-        'react-app',
         'plugin:react/recommended'
     ],
     plugins: [
-        'react',
-        'import',
-        'flowtype',
-        'jsx-a11y',
-        'react-hooks'
+        'react'
     ],
-    parser: 'babel-eslint',
+    parserOptions: {
+        sourceType: 'module',
+        ecmaFeatures: {
+            jsx: true
+        }
+    },
     rules: {
         indent: ['error', 4, { SwitchCase: 1 }],
         quotes: ['error', 'single'],
