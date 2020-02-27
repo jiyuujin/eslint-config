@@ -11,5 +11,31 @@
   ],
   "assignees": [
     "jiyuujin"
+  ],
+  "packageRules": [
+    {
+      "paths": [
+        "packages/esnext/**"
+      ],
+      "labels": [
+        "Package:ESNext"
+      ]
+    },
+    {
+      "paths": [
+        "packages/react/**"
+      ],
+      "labels": [
+        "Package:React"
+      ]
+    },
+    {
+      "paths": [
+        "packages/vue/**"
+      ],
+      "labels": [
+        "Package:Vue"
+      ]
+    }
   ]
 }
