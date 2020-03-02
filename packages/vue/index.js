@@ -7,7 +7,8 @@ module.exports = {
     ],
     plugins: [
         'vue',
-        'vue-a11y'
+        'vue-a11y',
+        'prettier'
     ],
     parser: 'vue-eslint-parser',
     rules: {
@@ -25,6 +26,7 @@ module.exports = {
         'vue/max-attributes-per-line': 'off',
         'prettier/prettier': [
             'error',
+            // .prettierrc.js でも設定可能
             {
                 'singleQuote': true,
                 'semi': false
