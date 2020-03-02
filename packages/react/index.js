@@ -6,7 +6,8 @@ module.exports = {
         'plugin:prettier/recommended'
     ],
     plugins: [
-        'react'
+        'react',
+        'prettier'
     ],
     parserOptions: {
         sourceType: 'module',
