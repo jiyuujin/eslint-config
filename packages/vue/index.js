@@ -29,7 +29,8 @@ module.exports = {
             // .prettierrc.js でも設定可能
             {
                 'singleQuote': true,
-                'semi': false
+                'semi': false,
+                'trailingComma': 'none'
             }
         ]
     }
