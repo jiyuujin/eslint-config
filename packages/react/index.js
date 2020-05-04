@@ -21,6 +21,20 @@ module.exports = {
         'linebreak-style': ['error', 'unix'],
         semi: ['error', 'never'],
         'no-unused-vars': 'warn',
-        'no-var': 'error'
+        'no-var': 'error',
+        'prettier/prettier': [
+            'error',
+            // .prettierrc.js でも設定可能
+            {
+                'singleQuote': true,
+                'semi': false,
+                'tabWidth': 4
+            }
+        ]
+    },
+    settings: {
+        react: {
+            version: 'detect'
+        }
     }
 }
