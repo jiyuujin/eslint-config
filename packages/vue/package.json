@@ -19,7 +19,7 @@
     "eslint"
   ],
   "scripts": {
-    "test": "eslint hoge.js"
+    "test": "eslint hoge.vue -c ./index.js"
   },
   "dependencies": {
     "eslint-config-prettier": "^6.10.0",
@@ -29,6 +29,7 @@
     "prettier": "^2.0.5"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint": "6.8.0"
   }
 }
