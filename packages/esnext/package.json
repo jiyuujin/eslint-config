@@ -22,7 +22,7 @@
     "test": "eslint hoge.js -c ./index.js"
   },
   "dependencies": {
-    "eslint": "6.8.0",
+    "eslint": "7.0.0",
     "prettier": "^2.0.5"
   }
 }
