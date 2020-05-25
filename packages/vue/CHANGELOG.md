@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.3.1
+
+### [feat]
+- Add `.prettierrc`
+
 ## v0.3.0
 
 ### [feat]
