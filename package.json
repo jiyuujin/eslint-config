@@ -23,7 +23,7 @@
     "release": "git checkout master && lerna publish"
   },
   "devDependencies": {
-    "lerna": "3.20.2"
+    "lerna": "3.22.1"
   },
   "workspaces": {
     "packages": [
