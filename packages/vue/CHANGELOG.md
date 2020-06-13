@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.4.0
+
+### [feat]
+- Corresponding to ESLint v7
+
 ## v0.3.1
 
 ### [feat]
