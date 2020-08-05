@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.0.0-beta.0
+
+### [feat]
+- Corresponding to Vue 3.0
+
 ## v0.4.0
 
 ### [feat]
