@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v1.0.0-beta.1
+
+### [feat]
+- Update eslint-plugin-vue to v7
+
 ## v1.0.0-beta.0
 
 ### [feat]
