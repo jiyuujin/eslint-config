@@ -24,6 +24,6 @@
     "lint:fix": "lerna run --scope @nekohack/* --parallel lint:fix"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "3.22.1"
   }
 }
