@@ -3,10 +3,12 @@
 module.exports = {
     extends: [
         'plugin:react/recommended',
-        'plugin:prettier/recommended'
+        'plugin:prettier/recommended',
+        'plugin:react-hooks/recommended'
     ],
     plugins: [
         'react',
+        'react-hooks',
         'prettier'
     ],
     parserOptions: {
@@ -22,6 +24,7 @@ module.exports = {
         semi: ['error', 'never'],
         'no-unused-vars': 'warn',
         'no-var': 'error',
+       'react-hooks/rules-of-hooks': 'error',
         'prettier/prettier': [
             'error',
             // .prettierrc.js でも設定可能
