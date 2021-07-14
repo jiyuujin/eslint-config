@@ -22,7 +22,7 @@
     "test": "eslint hoge.vue -c ./index.js"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^7.0.0",
     "eslint-plugin-vue-a11y": "^0.0.31",
